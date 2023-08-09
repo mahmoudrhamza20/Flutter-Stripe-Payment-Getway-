@@ -22,7 +22,7 @@ abstract class PaymentManager {
     await Stripe.instance.initPaymentSheet(
       paymentSheetParameters: SetupPaymentSheetParameters(
         paymentIntentClientSecret: clientSecret,
-        merchantDisplayName: "Basel",
+        merchantDisplayName: "Mahmoud",
       ),
     );
   }
